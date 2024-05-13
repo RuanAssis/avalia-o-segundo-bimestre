@@ -9,7 +9,6 @@ UPDATE Livros
 SET disponivel = False
 WHERE ano_publicacao < 2000;
 
-select*from Livros;
 -- Autualizar Editora --
 UPDATE Livros
 SET editora = "Plume Books"
